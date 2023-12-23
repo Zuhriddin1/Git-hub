@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Git hub</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="h-full bg-[#141D2F]">
+    <header
+      class="flex justify-center pt-[200px] justify-between max-w-[730px]"
+    >
+      <img src="images/devfinder.png" class="pl-[435px]" alt="" />
+      <div class="flex text-center">
+        <span
+          class="pl-[460px] text-[13px] font-bold text-white tracking-[.2.5px] pr-[9px] cursor-pointer"
+          >LIGHT</span
+        >
+        <img src="images/002-sun.svg" class="cursor-pointer" alt="" />
+      </div>
+    </header>
+    <div class="flex text-center justify-center pt-[50px] relative">
+      <img
+        src="images/search.svg"
+        class="absolute left-[425px] bottom-[25px]"
+        alt=""
+      />
+      <input
+        type="text"
+        class="w-[650px] bg-[#1E2A47] rounded-[15px] pt-[22px] pl-[80px] pb-[22px]"
+        placeholder="Search GitHub username…"
+      />
+      <button
+        class="text-white text-[16px] font-bold w-[99px] bg-[#0079FF] rounded-[10px] cursor-pointer"
+      >
+        Search
+      </button>
+    </div>
+    <main>
+      <div
+        class="w-[730px] h-[419px] rounded-[15px] bg-[#1E2A47] ml-[384px] mt-[36px] flex relative"
+      >
+        <img
+          src="images/photo.png"
+          class="rounded-full pt-[48px] pl-[48px] w-[200px] h-[200px]"
+          alt=""
+        />
+        <div class="flex pt-[45px] gap-[180px]">
+          <h1 class="text-white text-[26px] font-bold">The Octocat</h1>
+          <span class="pt-[10px] text-white text-[15px] font-normal"
+            >Joined 25 Jan 2011</span
+          >
+        </div>
+      </div>
+      <div
+        class="w-[480px] h-[85px] rounded-[10px] bg-[#141D2F] flex absolute bottom-[0px] left-[550px] pt-[15px]"
+      >
+        <span class="pl-[40px] pr-[85px] text-white text-[13px] font-normal"
+          >Repos</span
+        >
+        <p
+          class="pt-[25px] absolute left-[50px] text-white text-[22px] font-bold uppercase"
+        >
+          8
+        </p>
+        <span class="pr-[55px] text-white text-[13px] font-normal"
+          >Followers</span
+        >
+        <p
+          class="absolute bottom-[17px] left-[160px] text-white text-[22px] font-bold uppercase"
+        >
+          3938
+        </p>
+        <span class="text-white text-[13px] font-normal">Following</span>
+        <p
+          class="absolute bottom-[17px] left-[290px] text-white text-[22px] font-bold uppercase"
+        >
+          9
+        </p>
+      </div>
+    </main>
+    <script src="main.js"></script>
+    <script src="api.js"></script>
+  </body>
+</html>
